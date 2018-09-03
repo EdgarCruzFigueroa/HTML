@@ -1,0 +1,140 @@
+
+		header{
+
+			width:85%;
+			height: 200px;
+			border: 5px double #3F51B5; 
+			border-radius: 900px;
+			background:  #79d300;
+			margin: 10px auto	0px;
+
+		}
+		header img{
+			display: inline-block;
+			width:150px;
+			 height: 150px;  
+			margin-top: 25px;
+			margin-left: 450px;
+			position: absolute;
+
+		}
+		
+		header h1{
+			display: inline-block;
+			margin-left: 350px;
+			margin-top: 70px;
+			position: absolute;
+			color: #303F9F;
+			font-size: 4em;
+			font-family: 'Courgette', cursive;
+			text-shadow:2px 4px 4px #E8EAF6;			
+			transition-property: color ,text-shadow;
+			transition-duration:1s,1.5s;
+			-webkit-transition:color 1s;
+			-moz-transition:color 1s;
+
+		}
+		
+		header h1:hover{
+			color:#1A237E;
+			text-shadow:4px 4px 4px #E8EAF6;
+			}
+
+nav{
+			width:  100%;
+			height: 30px;
+			margin: 10px auto 0px;
+			padding: 0px;
+			text-align:center;
+
+		}
+		nav ul{
+			list-style: none;
+			padding: 0px;
+			margin: 0px 0px 0px 0px;
+
+		}
+		nav ul >li{
+			display: inline-block;
+			width: 160px;
+			height: 25px;
+			border: 1px solid #3F51B5;
+			text-align: center;
+			padding-top:5px;
+			background:  #cacfd2;
+			font-size: 1em;
+			font-family: 'Chewy', cursive;
+			color: #303F9F;
+			text-shadow:2px 4px 4px #E8EAF6;
+			transition-property: background, color;
+			transition-duration:2s,2s;
+
+		}
+
+nav ul >li:hover{
+			background: #303F9F;
+			letter-spacing:2px;
+		}
+nav >ul >li a{
+			text-decoration: none;
+			color: #1A237E;
+		}
+		nav ul li ul{
+			position: absolute;
+			display: none;
+
+		}
+		nav ul li ul li{
+			display: block;
+		}
+		nav ul li:hover ul{
+			display: block;
+			margin-top: 4px;
+			background: #E8EAF6;
+		}
+#sitio{
+			background:  #d37300
+;
+		}
+		.sitios{
+			display: inline-block;
+			width: 450px;
+			height: 500px;	
+			margin-left: 20px;
+			margin-right: 10px;
+
+
+		}
+		.sitios img{
+			width: 340px;
+			height: 400px;
+			position: absolute;
+			margin-left: 0px;
+
+		}
+		.sitios img:hover{
+			width: 170px;
+			height: 170px;
+			margin-left: 70px;
+
+		}
+		.sitios p{
+			font-family: arial;
+			font-size: 13px;
+			font-weight: none;
+			width: 230px;
+			height: 350px;
+			margin-left: 10px;
+			position: absolute;
+
+		}
+		.sitios fieldset{
+			margin: 10px auto 10px;
+			height: auto;
+			width: 240px;
+			border: 4px double  #303F9F;
+			border-radius: 5px;
+			position: absolute;
+		}
+		
+		
